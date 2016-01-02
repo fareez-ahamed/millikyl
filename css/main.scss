@@ -105,7 +105,8 @@ body {
 .site-footer {
 
 	background-color: $color-tertiary;
-	padding-top: 50px;
+	margin-top: 50px;
+	padding-top: 35px;
 
 	.wrapper {
 		margin: 0 auto;
@@ -119,6 +120,7 @@ body {
 
 .post-list {
 	list-style: none;
+	padding-top: 6rem;
 
 	li {
 		padding-top: 20px;
