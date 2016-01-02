@@ -5,28 +5,28 @@
 
 
 
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+// // Our variables
+// $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $base-font-size:   16px;
+// $base-font-weight: 400;
+// $small-font-size:  $base-font-size * 0.875;
+// $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+// $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+// $text-color:       #111;
+// $background-color: #fdfdfd;
+// $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+// $grey-color:       #828282;
+// $grey-color-light: lighten($grey-color, 40%);
+// $grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
-$content-width:    800px;
+// // Width of the content area
+// $content-width:    800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+// $on-palm:          600px;
+// $on-laptop:        800px;
 
 
 
@@ -47,7 +47,57 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+        "milligram"
+        // "layout"
+        // "syntax-highlighting"
 ;
+
+.navigation {
+	height: 5.2rem;
+	position: fixed;
+	top:0px;
+	width: 100%;
+	background-color: $color-initial;
+	margin-top: 0px;
+	margin-left: 0px;
+	border-bottom: 2px solid $color-primary;
+
+	.container {
+		max-width: 800px;
+	}
+
+	.title {
+		float: left;
+		// display: inline;
+		padding-top: 0.8rem;
+		@extend h5;
+	}
+
+	.navigation-item {
+		display: inline;
+		padding-left: 2rem;
+
+	}
+
+	.navigation-list {
+		list-style: none;
+		padding-top: 1.1rem;
+	}
+}
+
+body {
+	margin: 0px 0px;
+}
+
+.page-content {
+	margin: 0 auto;
+	width: 800px;
+
+	.wrapper {
+		margin-top: 5.2rem;
+	}
+}
+
+.post-header {
+	padding-top: 8rem;
+}
