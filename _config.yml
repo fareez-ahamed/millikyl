@@ -9,7 +9,7 @@
 title: JongSeok Blog
 email: asd9026@hanmail.net
 description: > # this means to ignore newlines until "baseurl:"
- 경기도 성남시 분당구 삼평동 629 NHN엔터테인먼트 플레이뮤지엄
+ 경기도 성남시 분당구 삼평동 629 NHN엔터테인먼트 플레이뮤지엄<br>
  (경기도 성남시 분당구 대왕판교로 645번길 16 NHN엔터테인먼트 플레이뮤지엄)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "asd9026.github.io" # the base hostname & protocol for your site
