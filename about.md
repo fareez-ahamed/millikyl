@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Millikyl is a Jekyll theme based on Milligram, a small, clutter free CSS framework.
+####정종석 (Jung JongSeok)
 
-You can find the source code for the Millikyl theme at:
-{% include icon-github.html username="fareez-ahamed" %} /
-[jekyll-new](https://github.com/fareez-ahamed/millikyl)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+2016년 01월 04일 [NHN엔터테인먼트](https://www.nhnent.com) 입사<br>
+소&nbsp;&nbsp;&nbsp;&nbsp;속: 루키햇님TF 4층 1번 기둥<br>
+이메일: jongseok.jong@nhnent.com<br>
